@@ -1,14 +1,20 @@
+# Ignore build artifacts
+*.egg-info/
+src/*.egg-info/
+
 # Python cache files
 __pycache__/
 *.py[cod]
 
-# Virtual environment folder
+# Virtual environments
 .venv/
-my-env-name/
+env/
+venv/
 
-# Lock files
+# uv lock/cache
 uv.lock
+.uv-cache/
 
-# OS generated files
+# OS-specific files
 .DS_Store
 Thumbs.db

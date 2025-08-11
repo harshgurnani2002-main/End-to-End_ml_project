@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/__init__.py
-src/end_to_end_ml_project.egg-info/PKG-INFO
-src/end_to_end_ml_project.egg-info/SOURCES.txt
-src/end_to_end_ml_project.egg-info/dependency_links.txt
-src/end_to_end_ml_project.egg-info/requires.txt
-src/end_to_end_ml_project.egg-info/top_level.txt
