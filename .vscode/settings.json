@@ -1,0 +1,10 @@
+{
+    "spec-coder.ollamaChatModel": "starcoder2:3b",
+    "spec-coder.ollamaCodeModel": "starcoder2:3b",
+    "spec-coder.chatAiAssistantProvider": "Ollama",
+    "spec-coder.codeAiAssistantProvider": "Ollama",
+    "inference.model": "custom",
+    "inference.custom.model": "yi-coder:1.5b",
+    "inference.maxTokens": 256,
+    "notebook.includeCellOutputs": true
+}
