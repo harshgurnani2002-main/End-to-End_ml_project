@@ -1,0 +1,10 @@
+[2025-08-14 21:07:45,216] 23 root - INFO - Entered the data ingestion method or component
+[2025-08-14 21:07:45,220] 26 root - INFO - Read the dataset as dataframe
+[2025-08-14 21:07:45,223] 32 root - INFO - Train-test split initiated
+[2025-08-14 21:07:45,227] 39 root - INFO - Train-test split finished
+[2025-08-14 21:07:45,228] 65 root - INFO - the train and test path data are sucessfully loaded 
+[2025-08-14 21:07:45,228] 37 root - INFO - numerical coulum scaling completed
+[2025-08-14 21:07:45,228] 45 root - INFO - categorical coulumns encoding completed
+[2025-08-14 21:07:45,228] 52 root - INFO - joined categorical and numerical feature using column transformerr
+[2025-08-14 21:07:45,229] 76 root - INFO - applying dataframe transformer on train and testing 
+[2025-08-14 21:07:45,239] 93 root - INFO - saving preprocessed object
