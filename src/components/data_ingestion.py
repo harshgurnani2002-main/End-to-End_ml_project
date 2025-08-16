@@ -7,8 +7,7 @@ from src.components.data_transformation import DataTransformation,DataTransforma
 
 from src.exception import CustomException
 from src.logger import logging
-# from src import utlis  # Uncomment if you actually use utlis
-
+from src.components.model_trainer import ModelTrainerConfig,ModelTrainer
 @dataclass
 class DataIngestionConfig:
     train_data_path: str = os.path.join('artifacts', 'train.csv')
@@ -51,4 +50,7 @@ if __name__ == "__main__" :
     obj = DataIngestion()
     train_data,test_data,raw_data=obj.initiate_data_ingestion()
     data_transformation=DataTransformation()
-    data_transformation.intiate_data_transformation(train_data,test_data)
+    train_arr,test_arr,x=data_transformation.intiate_data_transformation(train_data,test_data)
+    modeltrainer=ModelTrainer()
+    print(modeltrainer.initate_model_trainer(train_arr,test_arr))
+    
