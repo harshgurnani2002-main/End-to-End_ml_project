@@ -19,5 +19,4 @@ uv.lock
 .DS_Store
 Thumbs.db
 
-.artifacts/
 .catboost_info/
