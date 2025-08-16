@@ -1,0 +1,3 @@
+[2025-08-16 21:55:32,623] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-16 21:55:32,625] 97 werkzeug - INFO -  * Debugger PIN: 200-007-909
+[2025-08-16 21:55:34,667] 97 werkzeug - INFO -  * Detected change in '/home/legion/udemy/End-to-End_ml_project/src/pipeline/predict_pipeline.py', reloading

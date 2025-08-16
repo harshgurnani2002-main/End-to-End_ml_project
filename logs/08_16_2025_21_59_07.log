@@ -1,0 +1,17 @@
+[2025-08-16 21:59:07,480] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.11:5000
+[2025-08-16 21:59:07,480] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-16 21:59:07,481] 97 werkzeug - INFO -  * Restarting with stat
+[2025-08-16 21:59:08,182] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-16 21:59:08,184] 97 werkzeug - INFO -  * Debugger PIN: 200-007-909
+[2025-08-16 21:59:11,296] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:11] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-08-16 21:59:11,326] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:11] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-16 21:59:11,326] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:11] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-16 21:59:11,343] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:11] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=bZ60pQ2NWJRQj4HKQfT3 HTTP/1.1" 200 -
+[2025-08-16 21:59:15,350] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:15] "GET /predictdata HTTP/1.1" 200 -
+[2025-08-16 21:59:17,518] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:17] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-08-16 21:59:17,543] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:17] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-16 21:59:17,544] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:17] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-16 21:59:17,560] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 21:59:17] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=bZ60pQ2NWJRQj4HKQfT3 HTTP/1.1[0m" 304 -

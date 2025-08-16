@@ -1,0 +1,7 @@
+[2025-08-16 20:22:47,940] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-16 20:22:47,942] 97 werkzeug - INFO -  * Debugger PIN: 200-007-909
+[2025-08-16 20:22:49,153] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 20:22:49] "[35m[1mPOST /predictdata HTTP/1.1[0m" 500 -
+[2025-08-16 20:22:49,185] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 20:22:49] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-08-16 20:22:49,188] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 20:22:49] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-08-16 20:22:49,208] 97 werkzeug - INFO - 127.0.0.1 - - [16/Aug/2025 20:22:49] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=9lVI6V6hx5RCkDJ1zxEe HTTP/1.1" 200 -
+[2025-08-16 21:55:21,722] 97 werkzeug - INFO -  * Detected change in '/home/legion/udemy/End-to-End_ml_project/src/pipeline/predict_pipeline.py', reloading
