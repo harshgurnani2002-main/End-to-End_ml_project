@@ -1,0 +1,28 @@
+[2025-08-16 14:02:30,804] 22 root - INFO - Entered the data ingestion method or component
+[2025-08-16 14:02:30,806] 25 root - INFO - Read the dataset as dataframe
+[2025-08-16 14:02:30,809] 31 root - INFO - Train-test split initiated
+[2025-08-16 14:02:30,813] 38 root - INFO - Train-test split finished
+[2025-08-16 14:02:30,815] 65 root - INFO - the train and test path data are sucessfully loaded 
+[2025-08-16 14:02:30,815] 37 root - INFO - numerical coulum scaling completed
+[2025-08-16 14:02:30,815] 45 root - INFO - categorical coulumns encoding completed
+[2025-08-16 14:02:30,816] 52 root - INFO - joined categorical and numerical feature using column transformerr
+[2025-08-16 14:02:30,816] 76 root - INFO - applying dataframe transformer on train and testing 
+[2025-08-16 14:02:30,830] 93 root - INFO - saving preprocessed object
+[2025-08-16 14:02:30,830] 31 root - INFO - Splitting training and test input data
+[2025-08-16 14:02:30,830] 94 root - INFO - Tuning hyperparameters for random forest...
+[2025-08-16 14:02:34,318] 110 root - INFO - random forest R2 Score: 0.8559257484004033
+[2025-08-16 14:02:34,319] 94 root - INFO - Tuning hyperparameters for decision tree...
+[2025-08-16 14:02:34,344] 110 root - INFO - decision tree R2 Score: 0.8242299188020519
+[2025-08-16 14:02:34,344] 94 root - INFO - Tuning hyperparameters for gradient boosting...
+[2025-08-16 14:02:34,849] 110 root - INFO - gradient boosting R2 Score: 0.8682810736578536
+[2025-08-16 14:02:34,849] 94 root - INFO - Tuning hyperparameters for linear regression...
+[2025-08-16 14:02:34,851] 110 root - INFO - linear regression R2 Score: 0.8804332983749565
+[2025-08-16 14:02:34,851] 94 root - INFO - Tuning hyperparameters for k neighbours regressor...
+[2025-08-16 14:02:34,915] 110 root - INFO - k neighbours regressor R2 Score: 0.5562098996538811
+[2025-08-16 14:02:34,915] 94 root - INFO - Tuning hyperparameters for xg boost regressor...
+[2025-08-16 14:02:36,494] 110 root - INFO - xg boost regressor R2 Score: 0.1417635604877815
+[2025-08-16 14:02:36,495] 94 root - INFO - Tuning hyperparameters for cat boost regressor...
+[2025-08-16 14:02:38,995] 110 root - INFO - cat boost regressor R2 Score: 0.8630530315559598
+[2025-08-16 14:02:38,996] 94 root - INFO - Tuning hyperparameters for adaboost regressor...
+[2025-08-16 14:02:39,438] 110 root - INFO - adaboost regressor R2 Score: 0.8511696013081504
+[2025-08-16 14:02:39,438] 121 root - INFO - Best model: linear regression with R2 score 0.8804332983749565
