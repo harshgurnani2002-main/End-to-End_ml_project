@@ -1,0 +1,1 @@
+ERROR: NotAuthorizedError - Operation Denied. User: arn:aws:iam::723550704776:user/harshgurnani2002 is not authorized to perform: elasticbeanstalk:RequestEnvironmentInfo on resource: arn:aws:elasticbeanstalk:ap-south-1:723550704776:environment/Student Performance/StudentPerformance-env

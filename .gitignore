@@ -20,3 +20,7 @@ uv.lock
 Thumbs.db
 
 .catboost_info/
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
