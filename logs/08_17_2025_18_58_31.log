@@ -1,0 +1,16 @@
+[2025-08-17 18:58:31,452] 97 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.11:5000
+[2025-08-17 18:58:31,453] 97 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2025-08-17 18:58:31,453] 97 werkzeug - INFO -  * Restarting with stat
+[2025-08-17 18:58:32,120] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-08-17 18:58:32,122] 97 werkzeug - INFO -  * Debugger PIN: 200-007-909
+[2025-08-17 18:58:33,655] 97 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 18:58:33] "GET / HTTP/1.1" 200 -
+[2025-08-17 18:58:34,914] 97 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 18:58:34] "GET / HTTP/1.1" 200 -
+[2025-08-17 18:58:36,453] 97 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 18:58:36] "GET / HTTP/1.1" 200 -
+[2025-08-17 18:58:45,390] 97 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 18:58:45] "GET /predictdata HTTP/1.1" 200 -
+[2025-08-17 18:59:04,915] 97 werkzeug - INFO - 127.0.0.1 - - [17/Aug/2025 18:59:04] "POST /predictdata HTTP/1.1" 200 -
+[2025-08-17 19:13:36,417] 97 werkzeug - INFO -  * Detected change in '/home/legion/udemy/End-to-End_ml_project/application.py', reloading
+[2025-08-17 19:13:36,678] 97 werkzeug - INFO -  * Restarting with stat
+[2025-08-17 19:13:39,673] 97 werkzeug - INFO -  * Restarting with stat
