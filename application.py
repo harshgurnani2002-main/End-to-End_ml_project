@@ -7,23 +7,22 @@ from src.pipeline.predict_pipeline import CustomData, PredictPipeline
 
 from sklearn.preprocessing import StandardScaler
 
-# Create Flask app
-app = Flask(__name__)
+# Create Flask application
+application = Flask(__name__)
 
-# Elastic Beanstalk looks for "application"
-application = app
+
 
 
 ## route for a home page 
-@app.route('/')
+@application.route('/')
 def index():
     return render_template('index.html')
 
-@app.route('/health')
+@application.route('/health')
 def health():
     return {"status": "ok"}, 200
 
-@app.route('/predictdata', methods=['GET', 'POST'])
+@application.route('/predictdata', methods=['GET', 'POST'])
 def predict_datapoint():
     if request.method == 'GET':
         return render_template('home.html')
@@ -48,4 +47,4 @@ def predict_datapoint():
 
 # Local run
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    application.run(host='0.0.0.0', port=5000, debug=False)
