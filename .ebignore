@@ -1,0 +1,15 @@
+# Ignore heavy or dev-only content to speed up EB deployments
+notebook/
+logs/
+*.ipynb
+catboost_info/
+*.tsv
+*.tfevents*
+eb_logs.txt
+eb_last100_errors.txt
+.git/
+.github/
+.venv/
+__pycache__/
+*.pyc
+
