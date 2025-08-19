@@ -24,3 +24,6 @@ Thumbs.db
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
