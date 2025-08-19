@@ -13,3 +13,5 @@ eb_last100_errors.txt
 __pycache__/
 *.pyc
 
+venv/
+.venv/
