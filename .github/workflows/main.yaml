@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Lint Code
-        run: echo 'Linting repository'
+        run: echo 'Linting repository trial'
 
       - name: Run unit tests
         run: echo 'Running unit tests'
